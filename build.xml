@@ -1,9 +1,9 @@
 <project>
 
-    <property name="lib.dir" value="\Program Files\ant\lib"/> 
+    <property name="lib.dir" value="/Program Files/ant/lib"/> 
     <path id="classpath">
-        <pathelement location="\Program Files\ant\lib\ant-junit4.jar"/>
-        <pathelement location="\Program Files\ant\lib\ant-junit"/>
+        <pathelement location="/Program Files/ant/lib/ant-junit4.jar"/>
+        <pathelement location="/Program Files/ant/lib/ant-junit"/>
     </path>
 
     <target name="clean">
